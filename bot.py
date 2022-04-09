@@ -1,9 +1,7 @@
 from email import message
 import telebot
 from telebot import types
-from temp import flightnumber
 from datetime import datetime
-import schedule
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -81,7 +79,7 @@ def airlinenamefinder(soup):
 
 
 global storetime
-storetime=18
+storetime=20
 tb = telebot.TeleBot("5113850478:AAGLd3_gKvGAJ_Zf2QhNipwM4rfsM5IO90E")
 global chat_id
 chat_id="0"
