@@ -81,7 +81,7 @@ def airlinenamefinder(soup):
 
 
 global storetime
-storetime=5
+storetime=18
 tb = telebot.TeleBot("5113850478:AAGLd3_gKvGAJ_Zf2QhNipwM4rfsM5IO90E")
 global chat_id
 chat_id="0"
